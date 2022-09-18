@@ -109,9 +109,15 @@ main section:nth-child(4) {
     animation-delay: .9s;
 }
 
+main section:nth-child(5) {
+    animation-delay: 1.2s;
+}
+
 nav {
     background-color: #262629;
     border-radius: 8px;
+
+    animation: fromBottom .7s backwards;
 }
 
 .navbar-nav {
